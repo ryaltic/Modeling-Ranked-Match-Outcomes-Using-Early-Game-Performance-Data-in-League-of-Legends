@@ -1,7 +1,7 @@
 # Modeling-Ranked-Match-Outcomes-Using-Early-Game-Performance-Data-in-League-of-Legends
 
 ## Project Overview
-This project explores how early-game performance metrics influence match outcomes in ranked League of Legends games from Gold to Diamond tiers. Using publicly available match data from the Riot Games API, the analysis focuses on aggregated team-level and role-level statistics—such as gold difference, objective control, and kill participation—to model their relationship with the final outcome of the game.
+This project explores how early-game performance metrics influence match outcomes in ranked League of Legends games from Gold to Diamond tiers during Season 15. Using publicly available match data from the Riot Games API, the analysis focuses on aggregated team-level and role-level statistics—such as gold difference, objective control, and kill participation—to model their relationship with the final outcome of the game. This project uses a Random Forest, a LightGBM, and a Neural Network to compute the highest AUC for modeling ranked matches. This project goes through the whole data science workflow, with the exclusion of data collection for privacy and security reasons 
 
 ## Purpose
 The goal of this project is educational and analytical: to better understand which early-game factors are most strongly associated with winning ranked matches. The project is intended for research, learning, and portfolio purposes, and it does not target or profile individual players.
@@ -31,9 +31,7 @@ The goal of this project is educational and analytical: to better understand whi
 
   - Gold difference by role
 
-  - Objective control (towers, dragons, heralds)
-
-  - Kill participation percentages
+  - Objective control
 
   - Modeling the relationship between these metrics and final match outcomes using machine learning and statistical analysis.
 
@@ -41,10 +39,7 @@ The goal of this project is educational and analytical: to better understand whi
 
 - All results are presented in aggregate form, highlighting trends and correlations at the team and role level.
 
-- Visualizations illustrate early-game factors most strongly associated with winning.
-
-## Getting Started
-- The code is organized into notebooks and scripts for data ingestion, feature engineering, and modeling. Users can reproduce the analysis using their own Riot API key.
-
+- Visualizations illustrate early-game factors most strongly associated with winning and other early-game factors.
+  
 ## Disclaimer
 This project is intended solely for educational and research purposes. No individual player data is shared, tracked, or published in any form.
