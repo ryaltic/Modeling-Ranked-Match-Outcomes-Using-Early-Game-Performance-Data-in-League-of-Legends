@@ -1,4 +1,4 @@
-# Modeling-Ranked-Match-Outcomes-Using-Early-Game-Performance-Data-in-League-of-Legends
+# Predicting-League-of-Legends-Matches-Outcomes-based-on-the-10-Minute-Mark
 
 ## Project Overview
 This project explores how early-game performance metrics influence match outcomes in ranked League of Legends games from Gold to Diamond tiers during Season 15. Using publicly available match data from the Riot Games API, the analysis focuses on aggregated team-level and role-level statistics—such as gold difference, objective control, and kill participation—to model their relationship with the final outcome of the game. This project uses a Random Forest, a LightGBM, and a Neural Network to compute the highest AUC for modeling ranked matches. This project goes through the whole data science workflow, with the exclusion of data collection for privacy and security reasons 
